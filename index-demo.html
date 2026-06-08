@@ -1,0 +1,909 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>Lake Living Solutions | Lakefront Piers, Lifts & Waterfront Service</title>
+    <meta name="description" content="Lake Living Solutions provides pier installation, boatlift service, lawn maintenance and accessories for lakeside homeowners in Northern Indiana. Trusted local waterfront experts with 30+ years of combined experience.">
+    <meta name="keywords" content="lake services, pier installation, boatlift service, waterfront accessories, dock installation, lawn maintenance, Indiana lakes">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Lake Living Solutions",
+  "telephone": "+1-574-526-2589",
+  "email": "lakelivingsolutions@gmail.com",
+  "description": "Lake Living Solutions delivers pier installation, boatlift service, lakefront lawn care, and waterfront accessories across Northern Indiana lakes.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Serving lakefront communities across Northern Indiana",
+    "addressLocality": "South Bend",
+    "addressRegion": "IN"
+  },
+  "areaServed": "Northern Indiana lakes",
+  "openingHours": [
+    "Mo-Fr 08:00-18:00",
+    "Sa 08:00-14:00"
+  ]
+}
+</script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+<!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="/images/fav-icon/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/fav-icon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/fav-icon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/fav-icon/apple-touch-icon.png">
+  <link rel="manifest" href="/images/fav-icon/site.webmanifest">
+
+ <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
+
+<div class="mobile-topbar">
+
+  <a href="tel:5745262589" class="topbar-phone">
+    <i class="bi bi-telephone-fill"></i>
+    (574) 526-2589
+  </a>
+
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <i id="hamIcon" class="bi bi-list"></i>
+  </button>
+</div>
+
+<div class="overlay" id="overlay"></div>
+
+<div class="mobile-drawer" id="drawer">
+
+  <div class="drawer-header">
+    <a class="drawer-logo" href="/">LAKE LIVING SOLUTIONS</a>
+    <button class="close-btn" id="closeBtn" aria-label="Close">
+      <i class="bi bi-x-lg"></i>
+    </button>
+  </div>
+
+  <ul class="drawer-nav">
+      <li><button class="nav-btn" onclick="window.location='/piers/'">Piers</button></li>
+      <li><button class="nav-btn" onclick="window.location='/boat-lifts/'">Boat Lifts</button></li>
+        <li><button class="nav-btn" onclick="window.location='/lawn-maintenance/'">Lawn maintenance</button></li>
+        <li><button class="nav-btn" onclick="window.location='/waterfront-accessories/'">Waterfront Accessories</button></li>
+      <li><button class="nav-btn" onclick="window.location='/accessories/'">Accessories</button></li>
+      <li><button class="nav-btn" onclick="window.location='/about/'">About Us</button></li>
+      <li><button class="nav-btn" onclick="window.location='/contact/'">Contact Us</button></li>
+  </ul>
+
+  <div class="drawer-phone">
+    <a href="tel:5745262589" class="drawer-phone-link">
+      <i class="bi bi-telephone-fill"></i>
+      (574) 526-2589
+    </a>
+  </div>
+
+</div>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const hamIcon   = document.getElementById('hamIcon');
+  const drawer    = document.getElementById('drawer');
+  const overlay   = document.getElementById('overlay');
+  const closeBtn  = document.getElementById('closeBtn');
+
+  function openDrawer() {
+    drawer.classList.add('open');
+    overlay.classList.add('active');
+    hamIcon.className = 'bi bi-x-lg';
+    document.body.style.overflow = 'hidden';
+  }
+  function closeDrawer() {
+    drawer.classList.remove('open');
+    overlay.classList.remove('active');
+    hamIcon.className = 'bi bi-list';
+    document.body.style.overflow = '';
+  }
+
+  hamburger.addEventListener('click', () => drawer.classList.contains('open') ? closeDrawer() : openDrawer());
+  closeBtn.addEventListener('click', closeDrawer);
+  overlay.addEventListener('click', closeDrawer);
+</script>
+    <nav class="main-nav">
+  <ul>
+    <li class="nav-spacer" aria-hidden="true"></li>
+
+    <li class="nav-links-group">
+      <button class="nav-btn" onclick="window.location='/piers/'">Piers</button>
+      <button class="nav-btn" onclick="window.location='/boat-lifts/'">Boat Lifts</button>
+      <button class="nav-btn" onclick="window.location='/lawn-maintenance/'">Lawn maintenance</button>
+      <button class="nav-btn" onclick="window.location='/waterfront-accessories/'">Waterfront Accessories</button>
+      <button class="nav-btn" onclick="window.location='/accessories/'">Accessories</button>
+      <button class="nav-btn" onclick="window.location='/about/'">About Us</button>
+      <button class="nav-btn" onclick="window.location='/contact/'">Contact Us</button>
+    </li>
+
+    <li class="nav-phone">
+      <a href="tel:5745262589" class="nav-phone-link">
+        <i class="bi bi-telephone-fill"></i>
+        (574) 526-2589
+      </a>
+    </li>
+  </ul>
+</nav>
+
+    <main>
+      
+<section class="hero-section">
+  <div class="hero-bg"></div>
+  <div class="container-fluid hero-inner">
+    <div class="row align-items-start gx-2">
+
+      <!-- Left Content -->
+      <div class="col-md-8 col-12">
+        <div class="right-side-section  me-md-5 me-0 ms-md-4 ms-0 px-3 px-md-0">
+
+          <div class="logo-wrapper mt-5">
+            <a href="/" aria-label="Lake Living Solutions Home">
+              <div class="logo" style="background-image: url('/img/logo.avif');"></div>
+            </a>
+          </div>
+
+          <h1 class="hero-title mb-3">
+            <span class="hero-title-text">
+              Lake Living Solutions<span> Lakefront</span> Services
+            </span>
+          </h1>
+
+          <h3 class="hero-subtitle">
+            Local waterfront experts for dock and boatlift installation, shoreline maintenance, and lake accessory upgrades.
+          </h3>
+
+        </div>
+      </div>
+
+      <!-- Right Form -->
+<!-- Right Form -->
+<div class="col-md-4 col-12 mt-4 mt-md-0">
+  <div class="form-container mt-5">  
+    <div class="appointment-card p-4">
+      <h5 class="text-center mb-1">Schedule Your</h5>
+      <div class="text-center mb-3">
+        <span class="appointment-pill d-inline-block">Waterfront Service</span>
+      </div>
+      <form>
+        <div class="row g-2">
+          <div class="col-6">
+            <input class="form-control rounded-input" placeholder="First Name *">
+          </div>
+          <div class="col-6">
+            <input class="form-control rounded-input" placeholder="Last Name *">
+          </div>
+        </div>
+        <div class="row g-2 mt-2">
+          <div class="col-6">
+            <input class="form-control rounded-input" placeholder="Phone Number *">
+          </div>
+          <div class="col-6">
+            <input type="email" class="form-control rounded-input" placeholder="Email Address *">
+          </div>
+        </div>
+        <div class="mt-2">
+          <input class="form-control rounded-input" placeholder="Zip Code or Lake Community *">
+        </div>
+        <div class="mt-2">
+          <select class="form-select rounded-input">
+            <option value="" selected="" disabled="">Service Needed</option>
+            <option value="pier-installation">Pier installation and sales</option>
+            <option value="boatlift-service">Boatlift service and sales</option>
+            <option value="lawn-maintenance">Lawn maintenance</option>
+            <option value="accessories">Accessories and finishing touches</option>
+            <option value="dock-deck">Dock Deck / Snap-Dock</option>
+            <option value="inspection">Inspection and maintenance</option>
+          </select>
+        </div>
+        <div class="mt-2">
+          <textarea class="form-control rounded-input" rows="4" placeholder="Tell us about your shoreline needs..."></textarea>
+        </div>
+        <div class="mt-2">
+          <select class="form-select rounded-input">
+            <option value="" selected="" disabled="">Need a service visit?</option>
+            <option value="yes">Yes</option>
+            <option value="no">No (Reach Out To Schedule)</option>
+          </select>
+        </div>
+        <div class="mt-3">
+          <button type="button" class="btn btn-danger w-100 btn-cta">REQUEST SERVICE QUOTE</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<section class="company-section overflow-hidden">
+  <div class="container-fluid p-0">
+    <div class="row g-0 about-content-bg" style="position: relative;">
+
+   
+
+      <!-- Content col -->
+      <div class="py-5 px-4 px-lg-5 d-flex align-items-center about-container-center" >
+       
+
+        <div class="about-card py-4">
+  <h2 class="section-title mb-4">
+    Lakefront Service Experts With a <br>Proven Track Record <span class="trust-pill">You Can TRUST.</span>
+  </h2>
+  
+  <div class="">
+    <div class="blockquote p-4 rounded-4 shadow-sm bg-white">
+      <p class="lead"><strong>New name. Familiar faces.</strong> With over 30 years of combined experience, you've likely seen our crew on your shoreline before.</p>
+      <p>We live on these lakes too — so we know the difference between a quick fix and a lasting solution. With deep local knowledge and unmatched passion for our waterways, we're here to grow alongside you for seasons to come.</p>
+    </div>
+  </div>
+  
+  <div class="content-text opacity-90">
+    <p><strong>Lake Living Solutions</strong> is built on local knowledge, dependable crews, and honest service. That means no generic plans, no hidden fees, and no seasonal shortcuts — just quality pier installs, boatlift services, and accessory upgrades tailored to YOUR shoreline.</p>
+    <p>We take pride in being the dependable local lake service team that homeowners trust every summer — and every storm season.</p>
+  </div>
+
+  <div class="row text-center mt-5 g-4 justify-content-center">
+    <div class="col-6 col-md-3">
+      <div class="stat-container">
+        <div class="stat-circle">30+</div>
+        <div class="stat-label">Years Of Combined <br> Lakefront Experience</div>
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="stat-container">
+        <div class="stat-circle">300+</div>
+        <div class="stat-label">Satisfied <br> Waterfront Customers</div>
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="stat-container">
+        <div class="stat-circle">70+</div>
+        <div class="stat-label">Pier, Lift, And <br> Accessory Projects</div>
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="stat-container">
+        <div class="stat-circle">A+</div>
+        <div class="stat-label">Local Service <br> Reputation</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5 d-flex flex-wrap align-items-center gap-4">
+    <a href="mailto:lakelivingsolutions@gmail.com" class="btn btn-contact-custom">
+      CONTACT US <span class="ms-2">❯</span>
+    </a>
+    <span class="fs-5 text-navy">or Call <strong class="text-danger">(574) 526-2589</strong></span>
+  </div>
+</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="services-featured py-5 bg-light" id="services">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <h2 class="section-title mb-3">Featured Lakefront Services</h2>
+        <p>From piers and boatlifts to lake-ready accessories and shoreline lawn care, Lake Living Solutions makes every waterfront project easier, safer, and more enjoyable.</p>
+        <p class="content-text">Every service is handled by our experienced waterfront crew, with a focus on reliability, care, and shoreline safety.</p>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <!-- Service 1: Pier installation and sales -->
+      <div class="col-lg-3 col-12">
+        <div class="stat-container" style="max-width:100%; padding:0rem; background:#fff; border-radius:24px; box-shadow:0 18px 50px rgba(0,0,0,0.05);">
+          <div class="service-image" style="width:100%; min-height:300px; border-radius:18px 18px 0px 0px; background:url('/img/00.jpg') center/cover no-repeat; margin-bottom:1rem;"></div>
+          <div class="stat-label stat-label-service" style="display: flex; flex-direction: column;">
+             <h3 class="h5 section-sub-titlex">Pier installation and sales</h3>
+             <p>Custom piers with vinyl, wood, aluminum, floating, Dock Deck and Snap-Dock configurations for every lake property.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 2: Boatlift service and sales -->
+      <div class="col-lg-3 col-12">
+        <div class="stat-container" style="max-width:100%; padding:0rem; background:#fff; border-radius:24px; box-shadow:0 18px 50px rgba(0,0,0,0.05);">
+          <div class="service-image" style="width:100%; min-height:300px; border-radius:18px 18px 0px 0px; background:url('/img/11.png') center/cover no-repeat; margin-bottom:1rem;"></div>
+          <div class="stat-label stat-label-service" style="display: flex; flex-direction: column;">
+             <h3 class="h5 section-sub-titlex">Boatlift service and sales</h3>
+             <p>Flexible boatlift options from trusted brands so your boat stays secure, accessible, and launch-ready.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3: Lawn maintenance -->
+      <div class="col-lg-3 col-12">
+        <div class="stat-container" style="max-width:100%; padding:0rem; background:#fff; border-radius:24px; box-shadow:0 18px 50px rgba(0,0,0,0.05);">
+          <div class="service-image" style="width:100%; min-height:300px; border-radius:18px 18px 0px 0px; background:url('/img/22.png') center/cover no-repeat; margin-bottom:1rem;"></div>
+          <div class="stat-label stat-label-service" style="display: flex; flex-direction: column;">
+             <h3 class="h5 section-sub-titlex">Lawn maintenance</h3>
+             <p>Lakefront lawn care that preserves curb appeal while protecting shoreline health and property value.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 4: Waterfront Accessories -->
+      <div class="col-lg-3 col-12">
+        <div class="stat-container" style="max-width:100%; padding:0rem; background:#fff; border-radius:24px; box-shadow:0 18px 50px rgba(0,0,0,0.05);">
+          <div class="service-image" style="width:100%; min-height:300px; border-radius:18px 18px 0px 0px; background:url('/img/33.png') center/cover no-repeat; margin-bottom:1rem;"></div>
+          <div class="stat-label stat-label-service" style="display: flex; flex-direction: column;">
+             <h3 class="h5 section-sub-titlex">Waterfront Accessories</h3>
+             <p>Ladders, benches, flagpoles, picnic tables, kayak racks, bumpers, post covers and every finishing touch.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 5: Piers (Dock Deck / Snap-Dock combined as it falls under piers) -->
+      <div class="col-lg-3 col-12">
+        <div class="stat-container" style="max-width:100%; padding:0rem; background:#fff; border-radius:24px; box-shadow:0 18px 50px rgba(0,0,0,0.05);">
+          <div class="service-image" style="width:100%; min-height:300px; border-radius:18px 18px 0px 0px; background:url('/img/44.png') center/cover no-repeat; margin-bottom:1rem;"></div>
+          <div class="stat-label stat-label-service" style="display: flex; flex-direction: column;">
+             <h3 class="h5 section-sub-titlex">Piers (Vinyl, Wood, Aluminum, Floating)</h3>
+             <p>Custom piers with vinyl, wood, aluminum, floating, Dock Deck and Snap-Dock configurations for every lake property.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 6: Lifts -->
+      <div class="col-lg-3 col-12">
+        <div class="stat-container" style="max-width:100%; padding:0rem; background:#fff; border-radius:24px; box-shadow:0 18px 50px rgba(0,0,0,0.05);">
+          <div class="service-image" style="width:100%; min-height:300px; border-radius:18px 18px 0px 0px; background:url('/img/55.png') center/cover no-repeat; margin-bottom:1rem;"></div>
+          <div class="stat-label stat-label-service" style="display: flex; flex-direction: column;">
+             <h3 class="h5 section-sub-titlex">Lifts (Numerous Brands)</h3>
+             <p>Flexible boatlift options from trusted brands so your boat stays secure, accessible, and launch-ready.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 7: Accessories (duplicate of Waterfront Accessories, but keeping as separate entry per your list) -->
+      <div class="col-lg-3 col-12">
+        <div class="stat-container" style="max-width:100%; padding:0rem; background:#fff; border-radius:24px; box-shadow:0 18px 50px rgba(0,0,0,0.05);">
+          <div class="service-image" style="width:100%; min-height:300px; border-radius:18px 18px 0px 0px; background:url('/img/66.png') center/cover no-repeat; margin-bottom:1rem;"></div>
+          <div class="stat-label stat-label-service" style="display: flex; flex-direction: column;">
+             <h3 class="h5 section-sub-titlex">Accessories</h3>
+             <p>Ladders, benches, flagpoles, picnic tables, kayak racks, bumpers, post covers and every finishing touch.</p>
+          </div>
+        </div>
+      </div>
+            <!-- Service 8: Call to Action Block -->
+      <div class="col-lg-3 col-12">
+        <div class="stat-container" style="max-width: 100%;
+    padding: 2rem;
+    background: linear-gradient(135deg, #FF9800 0%, #2196F3 100%);
+    border-radius: 24px;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 366px;">
+          <div class="stat-label stat-label-service" style="display: flex; flex-direction: column; align-items:center;">
+             <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:1rem;">
+               <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="white"/>
+             </svg>
+             <h3 class="h5 section-sub-titlex" style="color:#fff; margin-bottom:1rem;">Ready to Get Started?</h3>
+             <p style="color:#e0e0e0; margin-bottom:1.5rem; font-size:14px;">Contact us today for a free consultation on your waterfront project.</p>
+             <a href="tel:+15745262589" style="display:inline-block; background:#fff; color:#1e3c72; text-decoration:none; padding:0.75rem 1.5rem; border-radius:50px; font-weight:600; transition:all 0.3s ease;">Get a Quote →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="review-sec text-center py-5">
+  <h1 class="text-white mb-2">Our Recent Reviews</h1>
+  <p class="review-sec-sub">What our waterfront customers are saying</p>
+
+  <div class="review-carousel-outer">
+
+    <!-- Arrows -->
+    <button class="review-arrow review-prev" id="reviewPrev">‹</button>
+    <button class="review-arrow review-next" id="reviewNext">›</button>
+
+    <!-- Track -->
+    <div class="review-track" id="reviewTrack">
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="avatar" style="background-color:#ea4335;">S</div>
+          <div class="user-info">
+            <span class="user-name">Sarah J.</span>
+            <span class="review-date">2 weeks ago</span>
+          </div>
+          <img src="https://img.icons8.com/color/48/google-logo.png" class="google-logo" alt="Google">
+        </div>
+        <div class="stars">★★★★★</div>
+        <p class="review-text">Our dock install was flawless. The crew arrived on time, handled our narrow shoreline with care, and the finished pier looks exactly like the plan.</p>
+      </div>
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="avatar" style="background-color:#34a853;">M</div>
+          <div class="user-info">
+            <span class="user-name">Mark Thompson</span>
+            <span class="review-date">1 month ago</span>
+          </div>
+          <img src="https://img.icons8.com/color/48/google-logo.png" class="google-logo" alt="Google">
+        </div>
+        <div class="stars">★★★★★</div>
+        <p class="review-text">They installed a boatlift and dock upgrades without disturbing our yard. The whole process was clean, professional, and our boat is already easier to launch.</p>
+      </div>
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="avatar" style="background-color:#4285f4;">E</div>
+          <div class="user-info">
+            <span class="user-name">Elena Rodriguez</span>
+            <span class="review-date">3 weeks ago</span>
+          </div>
+          <img src="https://img.icons8.com/color/48/google-logo.png" class="google-logo" alt="Google">
+        </div>
+        <div class="stars">★★★★★</div>
+        <p class="review-text">The team gave clear options for lift brands and even helped us choose the right dock type. Their pricing was fair and the end result feels built to last.</p>
+      </div>
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="avatar" style="background-color:#fbbc05;">D</div>
+          <div class="user-info">
+            <span class="user-name">David L.</span>
+            <span class="review-date">2 months ago</span>
+          </div>
+          <img src="https://img.icons8.com/color/48/google-logo.png" class="google-logo" alt="Google">
+        </div>
+        <div class="stars">★★★★★</div>
+        <p class="review-text"><b>Local Guide</b> · They checked my pier and lift before summer and fixed a loose post right away. Great service from a company that understands lakefront needs.</p>
+      </div>
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="avatar" style="background-color:#7c3aed;">R</div>
+          <div class="user-info">
+            <span class="user-name">Rachel Kim</span>
+            <span class="review-date">3 months ago</span>
+          </div>
+          <img src="https://img.icons8.com/color/48/google-logo.png" class="google-logo" alt="Google">
+        </div>
+        <div class="stars">★★★★★</div>
+        <p class="review-text">From the first call to the final dock cleanup, everything was seamless. The team was on time, respectful of our yard, and the finished pier looks amazing.</p>
+      </div>
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="avatar" style="background-color:#0891b2;">J</div>
+          <div class="user-info">
+            <span class="user-name">James Patterson</span>
+            <span class="review-date">6 weeks ago</span>
+          </div>
+          <img src="https://img.icons8.com/color/48/google-logo.png" class="google-logo" alt="Google">
+        </div>
+        <div class="stars">★★★★★</div>
+        <p class="review-text">We got multiple quotes and Lake Living Solutions had the best lakefront expertise. Our new lift works perfectly and the dock was built exactly to our shoreline.</p>
+      </div>
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="avatar" style="background-color:#059669;">T</div>
+          <div class="user-info">
+            <span class="user-name">Teresa Nguyen</span>
+            <span class="review-date">1 week ago</span>
+          </div>
+          <img src="https://img.icons8.com/color/48/google-logo.png" class="google-logo" alt="Google">
+        </div>
+        <div class="stars">★★★★★</div>
+        <p class="review-text">I called on Tuesday about a broken dock board and they were at our lakefront by Wednesday morning. Repair was completed same day and the deck looks great.</p>
+      </div>
+
+    </div><!-- end track -->
+
+    <!-- Dots -->
+    <div class="review-dots" id="reviewDots"><span class="review-dot"></span><span class="review-dot"></span><span class="review-dot"></span><span class="review-dot"></span><span class="review-dot active"></span></div>
+
+  </div>
+</div>
+
+<script>
+(function() {
+  const track    = document.getElementById('reviewTrack');
+  const dotsWrap = document.getElementById('reviewDots');
+  const prevBtn  = document.getElementById('reviewPrev');
+  const nextBtn  = document.getElementById('reviewNext');
+  const cards    = track.querySelectorAll('.review-card');
+
+  let current = 0;
+  let autoTimer = null;
+  let visibleCount = getVisible();
+
+  function getVisible() {
+    return window.innerWidth < 576 ? 1 : window.innerWidth < 992 ? 2 : 3;
+  }
+
+  const total = cards.length;
+
+  /* Build dots */
+  function buildDots() {
+    visibleCount = getVisible();
+    dotsWrap.innerHTML = '';
+    const pages = total - visibleCount + 1;
+    for (let i = 0; i < pages; i++) {
+      const d = document.createElement('span');
+      d.className = 'review-dot' + (i === current ? ' active' : '');
+      d.addEventListener('click', () => { goTo(i); resetAuto(); });
+      dotsWrap.appendChild(d);
+    }
+  }
+
+  function goTo(index) {
+    visibleCount = getVisible();
+    const pages = total - visibleCount + 1;
+    current = Math.max(0, Math.min(index, pages - 1));
+    const cardW = cards[0].offsetWidth + 20;
+    track.scrollTo({ left: cardW * current, behavior: 'smooth' });
+    dotsWrap.querySelectorAll('.review-dot').forEach((d, i) => d.classList.toggle('active', i === current));
+  }
+
+  function next() { goTo(current + 1 < total - visibleCount + 1 ? current + 1 : 0); }
+  function prev() { goTo(current > 0 ? current - 1 : total - visibleCount); }
+
+  function startAuto() {
+    clearInterval(autoTimer);
+    autoTimer = setInterval(next, 3500);
+  }
+
+  function resetAuto() { clearInterval(autoTimer); startAuto(); }
+
+  prevBtn.addEventListener('click', () => { prev(); resetAuto(); });
+  nextBtn.addEventListener('click', () => { next(); resetAuto(); });
+
+  /* Sync dot on manual swipe */
+  track.addEventListener('scroll', () => {
+    const cardW = cards[0].offsetWidth + 20;
+    current = Math.round(track.scrollLeft / cardW);
+    dotsWrap.querySelectorAll('.review-dot').forEach((d, i) => d.classList.toggle('active', i === current));
+  });
+
+  /* Pause on touch */
+  track.addEventListener('touchstart', () => clearInterval(autoTimer));
+  track.addEventListener('touchend', startAuto);
+
+  window.addEventListener('resize', () => { buildDots(); goTo(0); });
+
+  buildDots();
+  startAuto();
+})();
+</script>
+
+<section class="modern-carousel-section">
+  <div class="mb-2"><h1>Our Latest Lakefront Projects</h1></div>
+
+  <div class="carousel-outer">
+
+    <div class="carousel-wrapper" id="carouselWrapper">
+
+      <div class="project-card">
+        <img src="/img/projects/111.jpg" alt="Lake Pier Installation">
+        <div class="card-content">
+          <span class="tag" style="background:#fbbf24;color:#000;">Pier</span>
+          <h3>Lake Pier Installation</h3>
+          <p>Custom pier installation with durable decking and shoreline-safe engineering for every property.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="/img/projects/222.jpg" alt="Boatlift Installation">
+        <div class="card-content">
+          <span class="tag" style="background:#38bdf8;color:#000;">Boatlift</span>
+          <h3>Boatlift Service & Sales</h3>
+          <p>High-quality boatlift installation for secure storage and smooth lake launches all season.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="/img/projects/333.jpg" alt="Lawn Maintenance">
+        <div class="card-content">
+          <span class="tag" style="background:#f87171;color:#fff;">Lawn Care</span>
+          <h3>Lakefront Lawn Maintenance</h3>
+          <p>Shoreline-safe lawn care and turf management to keep your waterfront landscape neat and healthy.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="/img/projects/1111.jpg" alt="Dock Accessories">
+        <div class="card-content">
+          <span class="tag" style="background:#4ade80;color:#000;">Accessories</span>
+          <h3>Lake Accessory Installation</h3>
+          <p>Installed ladders, benches, bumpers, kayak racks and dock accessories for safer waterfront living.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="/img/projects/555.jpg" alt="Snap-Dock Installation">
+        <div class="card-content">
+          <span class="tag" style="background:#a78bfa;color:#fff;">Modular Dock</span>
+          <h3>Dock Deck & Snap-Dock</h3>
+          <p>Fast-install dock systems built for lake access, stability, and easy seasonal setup.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="/img/projects/666.jpg" alt="Inspection and Maintenance">
+        <div class="card-content">
+          <span class="tag" style="background:#fb923c;color:#fff;">Service</span>
+          <h3>Inspection & Maintenance</h3>
+          <p>Detailed pier and boatlift inspections with preventative maintenance to protect your waterfront investment.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="/img/projects/777.jpg" alt="Waterfront Project Planning">
+        <div class="card-content">
+          <span class="tag" style="background:#34d399;color:#000;">Planning</span>
+          <h3>Waterfront Service Planning</h3>
+          <p>Seasonal planning and project coordination for docks, lifts, shoreline care, and lakefront upgrades.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-arrow arrow-prev" id="arrowPrev" onclick="slideCarousel(-1)" style="display: none;">‹</button>
+    <button class="carousel-arrow arrow-next" id="arrowNext" onclick="slideCarousel(1)" style="display: none;">›</button>
+
+    <div class="carousel-dots" id="carouselDots" style="display: none;">
+      <span class="dot" onclick="goToSlide(0)"></span>
+      <span class="dot" onclick="goToSlide(1)"></span>
+      <span class="dot" onclick="goToSlide(2)"></span>
+      <span class="dot active" onclick="goToSlide(3)"></span>
+      <span class="dot" onclick="goToSlide(4)"></span>
+      <span class="dot" onclick="goToSlide(5)"></span>
+      <span class="dot" onclick="goToSlide(6)"></span>
+    </div>
+
+  </div>
+</section>
+
+<script>
+(function() {
+  let currentSlide = 0;
+  let autoPlayTimer = null;
+  let isDragging = false;
+  let dragStartX = 0;
+  let scrollStart = 0;
+  let hasDragged = false;
+
+  const wrapper = document.getElementById('carouselWrapper');
+  const dots    = document.querySelectorAll('.dot');
+  const cards   = wrapper.querySelectorAll('.project-card');
+  const total   = cards.length;
+
+  function isMobile() { return window.innerWidth <= 991; }
+
+  function updateDots() {
+    dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
+  }
+
+  /* ── Slide to index — works on both desktop & mobile ── */
+  function goToSlide(index) {
+    currentSlide = ((index % total) + total) % total;
+    const cardWidth = cards[0].offsetWidth + 16;
+    wrapper.scrollTo({ left: cardWidth * currentSlide, behavior: 'smooth' });
+    updateDots();
+  }
+
+  function slideCarousel(dir) { goToSlide(currentSlide + dir); resetAutoPlay(); }
+
+  /* Sync dots on scroll */
+  wrapper.addEventListener('scroll', () => {
+    const cardWidth = cards[0].offsetWidth + 16;
+    currentSlide = Math.round(wrapper.scrollLeft / cardWidth);
+    updateDots();
+  });
+
+  /* ── Mouse drag — desktop & mobile ── */
+  wrapper.addEventListener('mousedown', (e) => {
+    isDragging  = true;
+    hasDragged  = false;
+    dragStartX  = e.pageX;
+    scrollStart = wrapper.scrollLeft;
+    wrapper.style.cursor = 'grabbing';
+    wrapper.style.userSelect = 'none';
+    clearInterval(autoPlayTimer);
+    e.preventDefault();
+  });
+
+  window.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    const delta = dragStartX - e.pageX;
+    if (Math.abs(delta) > 5) hasDragged = true;
+    wrapper.scrollLeft = scrollStart + delta;
+  });
+
+  window.addEventListener('mouseup', (e) => {
+    if (!isDragging) return;
+    isDragging = false;
+    wrapper.style.cursor = '';
+    wrapper.style.userSelect = '';
+    /* Snap to nearest card */
+    const cardWidth = cards[0].offsetWidth + 16;
+    currentSlide = Math.round(wrapper.scrollLeft / cardWidth);
+    goToSlide(currentSlide);
+    startAutoPlay();
+    /* Prevent click firing after drag */
+    if (hasDragged) e.stopPropagation();
+  });
+
+  /* ── Touch pause/resume ── */
+  wrapper.addEventListener('touchstart', () => clearInterval(autoPlayTimer), { passive: true });
+  wrapper.addEventListener('touchend',   startAutoPlay, { passive: true });
+
+  /* ── Autoplay — runs on both desktop & mobile ── */
+  function startAutoPlay() {
+    clearInterval(autoPlayTimer);
+    autoPlayTimer = setInterval(() => goToSlide(currentSlide + 1), 3000);
+  }
+
+  function resetAutoPlay() { clearInterval(autoPlayTimer); startAutoPlay(); }
+
+  /* ── Show/hide arrows & dots (mobile only) ── */
+  function toggleControls() {
+    document.querySelectorAll('.carousel-arrow, .carousel-dots').forEach(el => {
+      el.style.display = isMobile() ? '' : 'none';
+    });
+  }
+
+  toggleControls();
+  window.addEventListener('resize', toggleControls);
+  startAutoPlay();
+})();
+</script>
+<section class="review-section py-5 text-center">
+  <div class="container">
+    <h3 class="fw-bold mb-1 text-dark">Please leave a review for us on</h3>
+    <h2 class="display-6 fw-bold mb-5">
+      <span class="text-google">Google</span> | <span class="text-facebook">Facebook</span>
+    </h2>
+
+    <div class="d-flex justify-content-center align-items-center gap-4 flex-wrap">
+      <a href="#" class="review-badge google-ring">
+        <div class="inner-content">
+          <p class="mb-1">Review us<br>on</p>
+          <img src="https://www.gesi.org/wp-content/uploads/2024/08/google-logo-png-open-2000.png" alt="Google" width="50">
+        </div>
+      </a>
+
+      <a href="#" class="review-badge facebook-ring">
+        <div class="inner-content">
+          <p class="mb-1">Review us<br>on</p>
+          <img src="https://images.icon-icons.com/1826/PNG/512/4202107facebookfblogosocialsocialmedia-115710_115591.png" alt="Facebook" width="55">
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1567747.014956237!2d-86.41924089324623!3d39.87410600472805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c10d14d160f8093%3A0x21bd7d960297fe0b!2sLake%20Living%20Solutions!5e0!3m2!1sen!2sma!4v1780882554108!5m2!1sen!2sma" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<footer class="footer-main text-white pt-5">
+  <div class="container pb-4">
+    <div class="row gy-5">
+
+      <!-- Logo & Social -->
+      <div class="col-lg-3">
+        <div class="mb-4">
+  <!--<a href="/" aria-label="Lake Living Solutions Home">
+    <img src="/img/logo.avif" alt="Lake Living Solutions Logo" class="img-fluid" style="max-height: 150px;">
+  </a>-->
+  <div class="logo-wrapper mt-5">
+            <a href="/" aria-label="Lake Living Solutions Home">
+              <div class="logo" style="background-image: url('/img/logo.avif');"></div>
+            </a>
+          </div>
+</div>
+<p class="small lh-base opacity-75">
+  We always deliver 100% customer satisfaction and absolute quality work without compromise, just like we've been doing since 1982.
+</p>
+        <div class="mt-4">
+          <h5 class="footer-heading">Follow Us</h5>
+          <div class="d-flex gap-2 mt-3">
+            <a href="#" class="btn btn-facebook d-inline-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="btn btn-facebook d-inline-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="btn btn-facebook d-inline-flex align-items-center justify-content-center"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-5 px-lg-5">
+        <h5 class="footer-heading">Quick Links</h5>
+        <div class="row mt-4">
+          <div class="col-6">
+            <ul class="list-unstyled footer-list">
+              <li><a href="#services">Pier Installation and Sales</a></li>
+              <li><a href="#services">Boatlift service and Sales</a></li>
+              <li><a href="#services">Lawn maintenance</a></li>
+              <li><a href="#services">Waterfront Accessories</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul class="list-unstyled footer-list">
+              <li><a href="#services">Piers (Vinyl, Wood, Aluminum, Floating)</a></li>
+              <li><a href="#services">Lifts (Numerous Brands)</a></li>
+              <li><a href="#services">Accessories</a></li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <!-- Phone CTA — Bootstrap Icon -->
+        <a href="tel:5745262589" class="footer-phone-cta mt-4 d-inline-flex align-items-center gap-2">
+          <i class="bi bi-telephone-fill"></i>
+          (574) 526-2589
+        </a>
+      </div>
+
+      <!-- Company Info & Hours -->
+      <div class="col-lg-4">
+        <div class="mb-5">
+          <h5 class="footer-heading">Company Info</h5>
+          <p class="small mt-4 opacity-75">
+            Serving waterfront communities across Northern Indiana<br>
+            Pier, boatlift, lawn care, and lake accessory service
+          </p>
+          <p class="small opacity-75">
+            <a href="mailto:lakelivingsolutions@gmail.com" style="color: var(--color-text-light);">lakelivingsolutions@gmail.com</a>
+          </p>
+        </div>
+        <div>
+          <h5 class="footer-heading">Business Hours</h5>
+          <ul class="list-unstyled small mt-4 business-hours">
+            <li><span>Mon:</span> <span>9:00 AM – 9:00 PM</span></li>
+            <li><span>Tue:</span> <span>9:00 AM – 9:00 PM</span></li>
+            <li><span>Wed:</span> <span>9:00 AM – 9:00 PM</span></li>
+            <li><span>Thu:</span> <span>9:00 AM – 9:00 PM</span></li>
+            <li><span>Sat:</span> <span>9:00 AM – 9:00 PM</span></li>
+            <li><span>Sun:</span> <span>9:00 AM – 9:00 PM</span></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="copyright-bar py-3 mt-4">
+    <div class="container">
+      <div class="row align-items-center text-center text-md-start">
+        <div class="col-md-8">
+          <p class="mb-0 small">Copyright © 2026 Lake Living Solutions | Website developed &amp; hosted by <b><a class="text-decoration-none text-warning" href="https://schrader.co/">Schrader Web Solutions</a></b></p>
+        </div>
+        <div class="col-md-4 text-md-end mt-2 mt-md-0">
+          <p class="mb-0 small"><a href="#" class="text-decoration-none text-white"> Privacy Policy</a>  | <a href="#" class="text-decoration-none text-white"> Terms &amp; Conditions</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="/js/main.js"></script>
+  
+</body></html>
